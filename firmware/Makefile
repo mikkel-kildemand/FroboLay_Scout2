@@ -41,7 +41,7 @@
 #############################################################################
 
 PROJECT=main
-SOURCES=main.c actuator.c avr_serial.c rcnmea.c
+SOURCES=main.c FroboLay_Scout2.c avr_serial.c rcnmea.c
 MMCU=at90can128
 CC=avr-gcc
 AVRDUDE=avrdude -p c128 -c avrisp2 -P /dev/ttyUSB2
